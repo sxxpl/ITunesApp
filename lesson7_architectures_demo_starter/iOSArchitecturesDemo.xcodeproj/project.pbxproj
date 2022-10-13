@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADE4F4DD28F86FAB0011D9FE /* AppDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4F4DC28F86FAB0011D9FE /* AppDetailHeaderView.swift */; };
+		ADE4F4E428F870E40011D9FE /* AppDetailHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4F4E328F870E40011D9FE /* AppDetailHeaderViewController.swift */; };
+		ADE4F4EA28F8787F0011D9FE /* AppDetailDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4F4E928F8787F0011D9FE /* AppDetailDescriptionView.swift */; };
+		ADE4F4EC28F8789E0011D9FE /* AppDetailDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4F4EB28F8789E0011D9FE /* AppDetailDescriptionViewController.swift */; };
 		E0E1D2932034A3350011E01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1D2922034A3350011E01A /* AppDelegate.swift */; };
 		E0E1D2952034A3350011E01A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1D2942034A3350011E01A /* SearchViewController.swift */; };
 		E0E1D29A2034A3350011E01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E1D2992034A3350011E01A /* Assets.xcassets */; };
@@ -32,6 +36,10 @@
 		8BE349225151AE13B1EDE333 /* Pods-iOSArchitecturesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchitecturesDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchitecturesDemo/Pods-iOSArchitecturesDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8EEA6AF9F424A0D5873D2723 /* Pods_iOSArchitecturesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchitecturesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A067E149D296BC0C249FD11F /* Pods-iOSArchitecturesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchitecturesDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchitecturesDemo/Pods-iOSArchitecturesDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ADE4F4DC28F86FAB0011D9FE /* AppDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailHeaderView.swift; sourceTree = "<group>"; };
+		ADE4F4E328F870E40011D9FE /* AppDetailHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailHeaderViewController.swift; sourceTree = "<group>"; };
+		ADE4F4E928F8787F0011D9FE /* AppDetailDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailDescriptionView.swift; sourceTree = "<group>"; };
+		ADE4F4EB28F8789E0011D9FE /* AppDetailDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailDescriptionViewController.swift; sourceTree = "<group>"; };
 		E0E1D28F2034A3350011E01A /* iOSArchitecturesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSArchitecturesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E1D2922034A3350011E01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0E1D2942034A3350011E01A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +81,56 @@
 				A067E149D296BC0C249FD11F /* Pods-iOSArchitecturesDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADE4F4DB28F86F8C0011D9FE /* AppDetailHeader */ = {
+			isa = PBXGroup;
+			children = (
+				ADE4F4DF28F870BA0011D9FE /* View */,
+				ADE4F4E028F870C00011D9FE /* Controller */,
+			);
+			path = AppDetailHeader;
+			sourceTree = "<group>";
+		};
+		ADE4F4DF28F870BA0011D9FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADE4F4DC28F86FAB0011D9FE /* AppDetailHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADE4F4E028F870C00011D9FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADE4F4E328F870E40011D9FE /* AppDetailHeaderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ADE4F4E528F8780C0011D9FE /* AppDetailDescription */ = {
+			isa = PBXGroup;
+			children = (
+				ADE4F4E828F878640011D9FE /* View */,
+				ADE4F4E628F878420011D9FE /* Controller */,
+			);
+			path = AppDetailDescription;
+			sourceTree = "<group>";
+		};
+		ADE4F4E628F878420011D9FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADE4F4EB28F8789E0011D9FE /* AppDetailDescriptionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ADE4F4E828F878640011D9FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADE4F4E928F8787F0011D9FE /* AppDetailDescriptionView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		DB95456C2F2DCD400ABCE8E9 /* Frameworks */ = {
@@ -133,6 +191,8 @@
 		E0E1D2A72034A3780011E01A /* AppDetail */ = {
 			isa = PBXGroup;
 			children = (
+				ADE4F4DB28F86F8C0011D9FE /* AppDetailHeader */,
+				ADE4F4E528F8780C0011D9FE /* AppDetailDescription */,
 				F8114FC222A3E74E00102830 /* View */,
 				F8114FC322A3E75300102830 /* Controller */,
 			);
@@ -409,17 +469,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE4F4EA28F8787F0011D9FE /* AppDetailDescriptionView.swift in Sources */,
 				E0E1D399203AE62E0011E01A /* ITunesApp.swift in Sources */,
 				F8A97B352249898E00FB2C0E /* AppCell.swift in Sources */,
 				F8114FC522A3E77500102830 /* AppDetailView.swift in Sources */,
 				E0E1D387203AE45F0011E01A /* WebRequest.swift in Sources */,
 				F8A1E03C2248382F00FE6448 /* Monads.swift in Sources */,
+				ADE4F4E428F870E40011D9FE /* AppDetailHeaderViewController.swift in Sources */,
 				E0E1D3D4203C4AA50011E01A /* UIColor+Extensions.swift in Sources */,
+				ADE4F4DD28F86FAB0011D9FE /* AppDetailHeaderView.swift in Sources */,
 				E0E1D3D1203C48D70011E01A /* AppDetailViewController.swift in Sources */,
 				E0E1D358203ADC590011E01A /* NetworkManager.swift in Sources */,
 				E0E1D39C203AE6420011E01A /* ITunesSong.swift in Sources */,
 				E0E1D2952034A3350011E01A /* SearchViewController.swift in Sources */,
 				E0E1D39F203AE7400011E01A /* ImageDownloader.swift in Sources */,
+				ADE4F4EC28F8789E0011D9FE /* AppDetailDescriptionViewController.swift in Sources */,
 				F8114FBE22A3DBF400102830 /* SearchView.swift in Sources */,
 				E0E1D395203AE5E20011E01A /* ITunesSearchResult.swift in Sources */,
 				E0E1D392203AE58B0011E01A /* ITunesSearchService.swift in Sources */,
